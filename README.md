@@ -17,18 +17,18 @@ It consist of 5 tables that is t_departments, t_dept_emp, t_dept_manager, t_empl
 
 ## Analysis
 
-![Employee Breakdown]()
+![Employee Breakdown](https://github.com/Sathyam-Kakodkar/Employee-Analysis/blob/main/images/Employee%20Breakdown.png)
 
 Analysis shows that on an average there are approximately 60% males employees and 40% female employees.
 
 ***
 
-![Managers per Department]()
+![Managers per Department](https://github.com/Sathyam-Kakodkar/Employee-Analysis/blob/main/images/Managers%20per%20Department.png)
 
 From the area chart it is visible that number of female managers are more than the male managers in the human resource department.
 
 ## Conclusion
 
-The dashboard created will help management or stakeholders take decisions on where to improve interms of gender, salary and department.
+The dashboard created will help management or stakeholders take decisions on where to improve interms equal pay among genders and departments.
 
-![Dashboard]()
+![Dashboard](https://github.com/Sathyam-Kakodkar/Employee-Analysis/blob/main/images/Dashboard.png)
