@@ -1,5 +1,5 @@
 -- Task 1
-''' Create a visualization that provides a breakdown between the male and female employees working in the company each year, starting from 1990. '''
+-- Create a visualization that provides a breakdown between the male and female employees working in the company each year, starting from 1990.
 
 -- Solution
 SELECT 
@@ -21,7 +21,7 @@ HAVING calendar_year >= 1990;
 ---------------------------------------------------------
 
 -- Task 2
-''' Compare the number of male managers to the number of female managers from different departments for each year, starting from 1990.'''
+-- Compare the number of male managers to the number of female managers from different departments for each year, starting from 1990.
 
 -- Solution
 SELECT 
@@ -56,8 +56,8 @@ ORDER BY dm.emp_no , calendar_year;
 ---------------------------------------------------------
 
 -- Task 3
-'''Compare the average salary of female versus male employees in the entire company until year 2002,
-and add a filter allowing you to see that per each department. '''
+-- Compare the average salary of female versus male employees in the entire company until year 2002,
+-- and add a filter allowing you to see that per each department.
 
 -- Solution
 select d.dept_name, e.gender, year(s.from_date) as calendar_year, avg(s.salary) as salary
@@ -75,8 +75,8 @@ having calendar_year <= 2002;
 ---------------------------------------------------------
 
 -- Task 4
-''' Create an SQL stored procedure that will allow you to obtain the average male and female salary per department within a certain salary range.
-Let this range be defined by two values the user can insert when calling the procedure. '''
+-- Create an SQL stored procedure that will allow you to obtain the average male and female salary per department within a certain salary range.
+-- Let this range be defined by two values the user can insert when calling the procedure.
 
 -- Solution
 select max(salary) from t_salaries;
